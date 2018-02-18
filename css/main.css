@@ -1,3 +1,15 @@
 html {
   min-width: 320px;
+
+  background-color: #1a1a1a;
+
+  font-family: "nimbus-sans",sans-serif;
+}
+
+.icon {
+  color: #fff;
+}
+
+.border-b {
+  border-bottom: 1px solid #e0e0e0;
 }

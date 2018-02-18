@@ -1,0 +1,57 @@
+header,
+.nav-xs {
+  background-color: #000;
+}
+
+header a,
+header button {
+  transition: opacity 200ms ease-in-out;
+}
+
+header a:hover,
+header button:hover {
+  opacity: .65;
+}
+
+header a:focus,
+header button:focus {
+  outline-offset: -7px;
+}
+
+.btn-toggle {
+
+}
+
+.i-logo {
+  width: 53.43px;
+  height: 24px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fff;
+  opacity: .65;
+}
+
+.nav-xs li {
+  border-bottom: 2px solid #333;
+}
+
+.nav-xs li:last-child {
+  border-bottom: 0;
+}
+
+.nav-xs {
+  top: -20em;
+  z-index: -1;
+
+  transition: top 200ms ease-in-out;
+}
+
+.js-nav-open {
+  top: 44px;
+}
