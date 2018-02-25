@@ -18,10 +18,6 @@ header button:focus {
   outline-offset: -7px;
 }
 
-.btn-toggle {
-
-}
-
 .i-logo {
   width: 53.43px;
   height: 24px;
@@ -46,12 +42,5 @@ header button:focus {
 }
 
 .nav-xs {
-  top: -20em;
-  z-index: -1;
-
-  transition: top 200ms ease-in-out;
-}
-
-.js-nav-open {
-  top: 44px;
+  display: none;
 }
