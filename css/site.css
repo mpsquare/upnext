@@ -6,3 +6,5 @@
 {% include_relative type.css %}
 {% include_relative main.css %}
 {% include_relative theme.css %}
+{% include_relative buttons.css %}
+{% include_relative header.css %}
