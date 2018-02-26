@@ -1,0 +1,12 @@
+.footer-wrapper{
+  padding: 2em;
+  background-color: #1F1F1F;
+}
+
+.copyright, .terms {
+  color: #707070;
+}
+
+.sm-icons {
+  text-align: right;
+}
