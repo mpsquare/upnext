@@ -8,5 +8,5 @@
 {% include_relative theme.css %}
 {% include_relative buttons.css %}
 {% include_relative header.css %}
-
+{% include_relative profile.css %}
 {% include_relative carousel.css %}
