@@ -15,7 +15,3 @@ select:focus {
   outline: 3px solid rgba(255, 255, 255, .5);
   outline-offset: 0;
 }
-
-a:focus, [tabindex="0"]:focus {
-  outline-offset: 1px;
-}

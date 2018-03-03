@@ -2,6 +2,11 @@
   overflow: scroll;
 }
 
+.row-outer {
+  overflow: hidden;
+  height: 25rem;
+}
+
 .row-inner {
   margin-top: 2.6rem;
   margin-bottom: 5.2rem;
@@ -35,7 +40,7 @@
 }
 
 .card:hover ~ .card {
-  transform: translateX(72px)
+  transform: translateX(65px)
 }
 
 .row-inner:hover .card:hover {
@@ -45,17 +50,12 @@
 
 /* Card details */
 
-.card-details {
-  background: linear-gradient(transparent, rgba(0, 0, 0, .5));
-}
-
 .i-play {
   opacity: 0;
-  transition: opacity 200ms ease-in-out;
 }
 
 .card:hover .i-play {
-  opacity: .65;
+  opacity: 1;
 }
 
 .card,
