@@ -12,4 +12,4 @@
 {% include_relative profile.css %}
 {% include_relative carousel.css %}
 {% include_relative show.css %}
-
+{% include_relative modal.css %}
