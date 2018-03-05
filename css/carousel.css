@@ -21,6 +21,12 @@
   height: 288px;
 }
 
+.card-small,
+.card-small-img {
+  width: 180px;
+  height: 288px;
+}
+
 .card {
   cursor: pointer;
   transition: all 400ms ease-out;
@@ -41,6 +47,14 @@
 
 .card:hover ~ .card {
   transform: translateX(65px)
+}
+
+.row-inner-small:hover {
+  transform: translateX(-12.65px);
+}
+
+.card-small:hover ~ .card-small {
+  transform: translateX(22.85px)
 }
 
 .row-inner:hover .card:hover {
