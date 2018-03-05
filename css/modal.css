@@ -1,0 +1,26 @@
+.modal {
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.link-box{
+  background: transparent;
+  border: none;
+}
+
+.link-box:hover {
+  background: none;
+}
+
+.modalcontent {
+  z-index: 1000;
+  position: absolute;
+  background-color: #121212;
+}
+
+.i-showicons {
+  width: 128px;
+  height: 43px;
+}

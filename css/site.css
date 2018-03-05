@@ -11,4 +11,4 @@
 {% include_relative footer.css %}
 {% include_relative profile.css %}
 {% include_relative carousel.css %}
-
+{% include_relative modal.css %}
