@@ -23,10 +23,50 @@ html {
   line-height: 1.3;
 }
 
+.opacity-half {
+  opacity: .5;
+}
+
+.i-circle {
+  border-radius: 50%;
+}
+
 @media only screen and (min-width: 38em) {
 
   .m-text-left {
     text-align: left;
+  }
+
+  .m-gutter {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
+  .m-gutter-2 {
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .l-text-right {
+    text-align: right;
+  }
+
+  .l-push-0 {
+    margin-bottom: 0;
+  }
+
+  .m-gutter {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .m-gutter-2 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
 }
