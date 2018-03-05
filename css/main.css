@@ -31,7 +31,15 @@ html {
   border-radius: 50%;
 }
 
+.island-4{
+  padding: 5.2rem;
+}
+
 @media only screen and (min-width: 38em) {
+
+  .island-4{
+    padding: 5.6rem;
+  }
 
   .m-text-left {
     text-align: left;
@@ -50,6 +58,10 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .island-4{
+    padding: 6rem;
+  }
 
   .l-text-right {
     text-align: right;
