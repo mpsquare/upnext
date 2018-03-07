@@ -3,16 +3,6 @@ header,
   background-color: #000;
 }
 
-header a,
-header button {
-  transition: opacity 200ms ease-in-out;
-}
-
-header a:hover,
-header button:hover {
-  opacity: .65;
-}
-
 header a:focus,
 header button:focus {
   outline-offset: -7px;

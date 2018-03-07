@@ -3,15 +3,7 @@
   z-index: 999;
   text-align: center;
   background-color: rgba(0,0,0,0.7);
-}
-
-.link-box{
-  background: transparent;
-  border: none;
-}
-
-.link-box:hover {
-  background: none;
+  display: none;
 }
 
 .modalcontent {

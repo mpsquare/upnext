@@ -15,3 +15,19 @@ select:focus {
   outline: 3px solid rgba(255, 255, 255, .5);
   outline-offset: 0;
 }
+
+button {
+  transition: opacity 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: .65;
+}
+
+.card {
+  transition: none;
+}
+
+.card:hover {
+  opacity: 1;
+}
