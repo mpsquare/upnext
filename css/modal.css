@@ -12,6 +12,7 @@
   z-index: 1000;
   position: absolute;
   background-color: #121212;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, .4);
 }
 
 .i-showicons {
