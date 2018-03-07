@@ -33,6 +33,10 @@
   transform-origin: center left;
 }
 
+.card:last-child {
+  margin-right: 2.6rem;
+}
+
 .card-img {
   border-radius: 4px;
 
@@ -94,6 +98,10 @@
     margin-bottom: 5.6rem;
   }
 
+  .card:last-child {
+    margin-right: 2.8rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -101,6 +109,10 @@
   .row-inner {
     margin-top: 1.5rem;
     margin-bottom: 6rem;
+  }
+
+  .card:last-child {
+    margin-right: 3rem;
   }
 
 }
