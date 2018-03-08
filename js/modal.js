@@ -5,8 +5,8 @@ var $modal = $('.modal');
 
 $btnUpNext.click(function () {
   var offset = $(document).scrollTop();
-  var viewportHeight = $(window).height()
-  $modal.css('top',  (offset  + (viewportHeight/2)) - ($modal.outerHeight()/2));
+  var viewportHeight = $(window).height();
+  $modal.css('top', (offset  + (viewportHeight/2)) - ($modal.outerHeight()/2));
   $modal.show();
   $body.css('overflow','hidden');
 });
