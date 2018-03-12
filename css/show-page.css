@@ -1,0 +1,102 @@
+/*Header*/
+.season-1-card {
+  position: absolute;
+  z-index: 100;
+  margin-left: 2em;
+  margin-top: 15em;
+}
+
+.banner-2 {
+  position: relative;
+  margin-bottom: 10em;
+}
+
+.banner-2 {
+  height: 25em;
+
+  background-image: url("{{site.baseurl}}/images/suitsbanner.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/*Episode List*/
+.episode-list {
+  margin: 0;
+  padding: 0;
+  display: block;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
+
+.episode-list li {
+  counter-increment: step-counter;
+  margin-left: 5em;
+  font-weight: bold;
+}
+
+.episode-list li::before {
+  content: counter(step-counter);
+  color: red;
+  font-weight: bold;
+  margin-right: 3em;
+}
+
+.episode-list p {
+  font-weight: 100;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: right;
+}
+
+hr.line {
+  border: .5px solid #707070;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .banner-2 {
+    height: 30em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .season-1-card {
+    margin-left: 3em;
+    margin-top: 18em;
+  }
+
+  .episode-list p {
+    padding-right: 3em;
+    padding-left: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .episode-list li::before {
+    margin-right: 10em;
+  }
+
+  .episode-list p {
+    padding-right: 3em;
+    padding-left: 20em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .episode-list li::before {
+    margin-right: 14em;
+  }
+
+  .episode-list p {
+    padding-right: 10em;
+    padding-left: 40em;
+  }
+
+}
